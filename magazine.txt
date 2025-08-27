@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WanderWorld Magazine</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; }
+    header { background: #2c3e50; color: white; padding: 20px; text-align: center; }
+    nav { background: #34495e; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    section { padding: 20px; }
+    .gallery img { width: 200px; margin: 10px; }
+    footer { background: #2c3e50; color: white; text-align: center; padding: 10px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>WanderWorld Magazine</h1>
+  <p>Your passport to stories from around the globe</p>
+</header>
+
+<nav>
+  <a href="#destinations">Destinations</a>
+  <a href="#stories">Stories</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="destinations">
+  <h2>🌍 Featured Destinations</h2>
+  <ul>
+    <li><strong>Pokhara, Nepal</strong> – Lakeside serenity and Himalayan views</li>
+    <li><strong>Kyoto, Japan</strong> – Temples, tea houses, and timeless beauty</li>
+    <li><strong>Lisbon, Portugal</strong> – Colorful streets and coastal charm</li>
+  </ul>
+</section>
+
+<section id="stories">
+  <h2>✈️ Travel Stories</h2>
+  <p>“I got lost in the alleys of Marrakech and found the best mint tea of my life.”</p>
+  <p>“Hiking the Annapurna Circuit changed how I see the world.”</p>
+</section>
+
+<section id="gallery" class="gallery">
+  <h2>📸 Photo Gallery</h2>
+  <img src="https://via.placeholder.com/200" alt="Travel photo 1">
+  <img src="https://via.placeholder.com/200" alt="Travel photo 2">
+  <img src="https://via.placeholder.com/200" alt="Travel photo 3">
+</section>
+
+<section id="about">
+  <h2>🧭 About WanderWorld</h2>
+  <p>We’re a team of explorers, writers, and photographers sharing authentic travel experiences from every corner of the globe.</p>
+</section>
+
+<section id="contact">
+  <h2>📬 Contact Us</h2>
+  <p>Email: wanderworld@example.com</p>
+  <p>Follow us on Instagram: @wanderworldmag</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 WanderWorld Magazine. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
